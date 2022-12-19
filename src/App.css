@@ -2,6 +2,8 @@
   --btn-bg-color:#142D71;
 }
 
+@import url('./assets/css/_reset.css');
+
 
 
 
@@ -18,9 +20,67 @@ body {
 
 
 .shexsi-reng {
-  background-color: var(--btn-bg-color)  !important;
+  background-color: var(--btn-bg-color) !important;
   border-radius: 2px !important;
 }
 
 
 
+.introsection p {
+  width: 457px;
+}
+
+.introsection .left-side {
+  padding-top: 174px;
+  padding-left: 150px;
+}
+
+.intro-paraqraf {
+  margin-top: 10px;
+}
+
+.introsection a, .introsection span {
+  margin-top: 40px;
+}
+
+.introsection .left-side h1 {
+  min-width: 388px;
+}
+
+.right-side {
+  min-width: 556px;
+}
+
+.right-side img {
+  border-bottom-left-radius: 75%;
+  width: 70%;
+  /* height: 622px; */
+  
+}
+
+
+@media(max-width:992px) {
+  .introsection .left-side {
+    padding: 20px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 100%;
+  }
+
+  .introsection .left-side h1 {
+    font-size: 72px;
+  }
+
+  .introsection .right-side {
+    display: flex;
+    flex-basis: 100%;
+    padding: 0;
+    justify-content: center !important;
+  }
+}
+
+.typing-effect {
+  font-size: 36px;
+}
