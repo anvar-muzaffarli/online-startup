@@ -15,6 +15,7 @@
 
 body {
   font-family: 'Nunito', sans-serif;
+  overflow-x:hidden;
 
 }
 
@@ -52,7 +53,7 @@ body {
 }
 
 .right-side img {
-  border-bottom-left-radius: 75%;
+
   width: 70%;
   /* height: 622px; */
   
@@ -83,4 +84,48 @@ body {
 
 .typing-effect {
   font-size: 36px;
+}
+
+
+/* CAROUSEL SECTION KODLAMA */
+
+
+.custom-card {
+  min-width: 300px;
+}
+
+
+.swiper-wrapper {
+
+  width: 80% !important;
+
+  margin: 0 auto;
+}
+ 
+.custom-cards-section {
+  padding-top: 100px;
+  /* padding-left: 40px;
+  padding-right: 40px; */
+  padding-bottom: 40px;
+}
+
+.custom-card p, .custom-card h4 {
+  text-align: center;
+}
+
+.custom-card h1 {
+  text-align: center;
+}
+
+.custom-card  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border:2px solid #dedede;
+  box-shadow: 6px 1px 20px 0px rgb(0 0 0 / 50%);
+  padding: 20px;
+}
+
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  display: none !important;
 }
