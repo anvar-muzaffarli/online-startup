@@ -100,6 +100,9 @@ body {
   width: 80% !important;
 
   margin: 0 auto;
+  position: relative;
+  /* top: -400px !important;
+  z-index: 9; */
 }
  
 .custom-cards-section {
@@ -107,6 +110,17 @@ body {
   /* padding-left: 40px;
   padding-right: 40px; */
   padding-bottom: 40px;
+
+
+
+  background: linear-gradient(135deg, #192B74 0.42%, #2946A1 100%);
+}
+
+.custom-card {
+  background-color: #fff;
+  position: relative;
+  top: -20%;
+  z-index: 9;
 }
 
 .custom-card p, .custom-card h4 {
@@ -128,4 +142,55 @@ body {
 
 .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
   display: none !important;
+}
+
+
+/* RESERVATIONS */
+.reservation {
+  padding-top: 131px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.reservation span {
+  background: #FFEDEC;
+border-radius: 16px;
+padding: 8px;
+}
+
+
+.reservation .button {
+  width: 47px;
+  height: 41px;
+  background: #EDF3FF;
+  border: none;
+}
+
+.reservation .button svg {
+  color:black;
+}
+
+.active {
+  background: linear-gradient(135deg, #192B74 0.42%, #2946A1 100%) !important;
+}
+
+
+
+
+
+
+/* COUNTUP SECTION */
+
+.count-up-section {
+  background: linear-gradient(135deg, #192B74 0.42%, #2946A1 100%);
+mix-blend-mode: normal;
+opacity: 0.7;
+
+padding-top: 194px;
+padding-bottom: 194px;
+padding-right: 239px;
+padding-left: 251px;
+color:#fff;
+
+font-size: 64px;
 }

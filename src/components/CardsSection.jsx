@@ -9,6 +9,9 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
+// MELUMAT BAZASI
+import melumatBazasi from "../data.json"
+
 
 // import required modules
 import {Autoplay, FreeMode, Pagination } from "swiper";
@@ -62,15 +65,15 @@ const CardsSection = () => {
         className="mySwiper"
       >
 
-     
-        <SwiperSlide><Card /></SwiperSlide>
-        <SwiperSlide><Card /></SwiperSlide>
-        <SwiperSlide><Card /></SwiperSlide>
-        <SwiperSlide><Card /></SwiperSlide>
-        <SwiperSlide><Card /></SwiperSlide>
-        <SwiperSlide><Card /></SwiperSlide>
-        <SwiperSlide><Card /></SwiperSlide>
-        <SwiperSlide><Card /></SwiperSlide>
+     {
+        melumatBazasi.map(melumat=> (
+          // PROPS 
+
+          <SwiperSlide><Card meqaleBasligi = {melumat.title} meqale={melumat.body} shekil={melumat.img} /></SwiperSlide>
+
+        ))
+     }
+
      
       </Swiper>
     </div>

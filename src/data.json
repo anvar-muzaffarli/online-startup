@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Market Research",
+        "body": "lorem ipsum dolor sit amet 1",
+        "img": "https://source.unsplash.com/random"
+    },
+    {
+        "title": "Market Research2",
+        "body": "lorem ipsum dolor sit amet 2",
+        "img": "https://source.unsplash.com/random"
+    },
+    {
+        "title": "Market Research3",
+        "body": "lorem ipsum dolor sit amet 3",
+        "img": "https://source.unsplash.com/random"
+    },
+    {
+        "title": "Market Research4",
+        "body": "lorem ipsum dolor sit amet 4",
+        "img": "https://res.cloudinary.com/derzgbs7x/image/upload/v1672074530/1638915427-1006-www.lookw.ru_flzks2.jpg"
+    },
+    {
+        "title": "Market Research5",
+        "body": "lorem ipsum dolor sit amet 5",
+        "img": "https://source.unsplash.com/random"
+    },
+    {
+        "title": "Market Research6",
+        "body": "lorem ipsum dolor sit amet 6",
+        "img": "https://source.unsplash.com/random"
+    }
+]

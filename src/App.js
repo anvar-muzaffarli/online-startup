@@ -7,12 +7,18 @@ import Navbar from './components/Navbar'
 import Introsection from './components/Introsection';
 import CardsSection from './components/CardsSection';
 
+import Reservations from './components/Reservations';
+
+import Count from './components/Count';
+
 function App() {
   return (
     <>
        <Navbar />
        <Introsection />
        <CardsSection />
+       <Reservations />
+       <Count />
     </>
 
   );
